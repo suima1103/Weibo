@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		1CF34E441FAC616A00AF3AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */; };
 		1CF34E4B1FAC616A00AF3AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */; };
-		1CF34E4E1FAC616A00AF3AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF34E4C1FAC616A00AF3AAD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CF34E401FAC616900AF3AAD /* chuanzhiWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chuanzhiWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1CF34E4D1FAC616A00AF3AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF34E4F1FAC616A00AF3AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +50,6 @@
 			children = (
 				1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */,
 				1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */,
-				1CF34E4C1FAC616A00AF3AAD /* LaunchScreen.storyboard */,
 				1CF34E4F1FAC616A00AF3AAD /* Info.plist */,
 			);
 			path = chuanzhiWeibo;
@@ -84,6 +81,7 @@
 		1CF34E381FAC616900AF3AAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WB;
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "袁泉亮";
@@ -117,7 +115,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF34E4E1FAC616A00AF3AAD /* LaunchScreen.storyboard in Resources */,
 				1CF34E4B1FAC616A00AF3AAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,17 +131,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1CF34E4C1FAC616A00AF3AAD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CF34E4D1FAC616A00AF3AAD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1CF34E501FAC616A00AF3AAD /* Debug */ = {
@@ -258,9 +244,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NDS8F59UY;
 				INFOPLIST_FILE = chuanzhiWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.chuanzhiWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,9 +261,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NDS8F59UY;
 				INFOPLIST_FILE = chuanzhiWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan.chuanzhiWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
