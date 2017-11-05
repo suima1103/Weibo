@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1670751FAEE72A00E0F8B7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1670741FAEE72A00E0F8B7 /* Bundle+Extensions.swift */; };
 		1C6FDE391FAEA379006B50A3 /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */; };
 		1C6FDE3B1FAEA3E7006B50A3 /* WBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */; };
 		1C6FDE3D1FAEA3FF006B50A3 /* WBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1670721FAEB09D00E0F8B7 /* Weibo-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo-Bridge.h"; sourceTree = "<group>"; };
+		1C1670741FAEE72A00E0F8B7 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBHomeViewController.swift; sourceTree = "<group>"; };
 		1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBDiscoverViewController.swift; sourceTree = "<group>"; };
 		1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBMessageViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C1670731FAEE53100E0F8B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C1670741FAEE72A00E0F8B7 /* Bundle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1CF34E371FAC616900AF3AAD = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +75,7 @@
 			children = (
 				1CF34E611FAD4FB300AF3AAD /* Classes */,
 				1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */,
+				1C1670721FAEB09D00E0F8B7 /* Weibo-Bridge.h */,
 				1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */,
 				1CF34E4F1FAC616A00AF3AAD /* Info.plist */,
 			);
@@ -91,6 +103,7 @@
 		1CF34E631FAD4FB300AF3AAD /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				1C1670731FAEE53100E0F8B7 /* Extensions */,
 			);
 			path = "Tools(工具)";
 			sourceTree = "<group>";
@@ -230,6 +243,7 @@
 				1CF34E701FAEA04B00AF3AAD /* WBBaseViewController.swift in Sources */,
 				1C6FDE3F1FAEA459006B50A3 /* WBProfileViewController.swift in Sources */,
 				1C6FDE3D1FAEA3FF006B50A3 /* WBMessageViewController.swift in Sources */,
+				1C1670751FAEE72A00E0F8B7 /* Bundle+Extensions.swift in Sources */,
 				1CF34E6C1FAD52AE00AF3AAD /* WBMainViewController.swift in Sources */,
 				1C6FDE3B1FAEA3E7006B50A3 /* WBDiscoverViewController.swift in Sources */,
 				1C6FDE391FAEA379006B50A3 /* WBHomeViewController.swift in Sources */,
