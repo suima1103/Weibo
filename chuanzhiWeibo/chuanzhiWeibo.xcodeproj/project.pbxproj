@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6FDE391FAEA379006B50A3 /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */; };
+		1C6FDE3B1FAEA3E7006B50A3 /* WBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */; };
+		1C6FDE3D1FAEA3FF006B50A3 /* WBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */; };
+		1C6FDE3F1FAEA459006B50A3 /* WBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3E1FAEA459006B50A3 /* WBProfileViewController.swift */; };
 		1CF34E441FAC616A00AF3AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */; };
 		1CF34E4B1FAC616A00AF3AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */; };
+		1CF34E6C1FAD52AE00AF3AAD /* WBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF34E6B1FAD52AE00AF3AAD /* WBMainViewController.swift */; };
+		1CF34E6E1FAE9FCD00AF3AAD /* WBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF34E6D1FAE9FCD00AF3AAD /* WBNavigationController.swift */; };
+		1CF34E701FAEA04B00AF3AAD /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF34E6F1FAEA04B00AF3AAD /* WBBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBHomeViewController.swift; sourceTree = "<group>"; };
+		1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBDiscoverViewController.swift; sourceTree = "<group>"; };
+		1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBMessageViewController.swift; sourceTree = "<group>"; };
+		1C6FDE3E1FAEA459006B50A3 /* WBProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBProfileViewController.swift; sourceTree = "<group>"; };
 		1CF34E401FAC616900AF3AAD /* chuanzhiWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chuanzhiWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF34E4F1FAC616A00AF3AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF34E6B1FAD52AE00AF3AAD /* WBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBMainViewController.swift; sourceTree = "<group>"; };
+		1CF34E6D1FAE9FCD00AF3AAD /* WBNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBNavigationController.swift; sourceTree = "<group>"; };
+		1CF34E6F1FAEA04B00AF3AAD /* WBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +62,98 @@
 		1CF34E421FAC616900AF3AAD /* chuanzhiWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				1CF34E611FAD4FB300AF3AAD /* Classes */,
 				1CF34E431FAC616A00AF3AAD /* AppDelegate.swift */,
 				1CF34E4A1FAC616A00AF3AAD /* Assets.xcassets */,
 				1CF34E4F1FAC616A00AF3AAD /* Info.plist */,
 			);
 			path = chuanzhiWeibo;
+			sourceTree = "<group>";
+		};
+		1CF34E611FAD4FB300AF3AAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1CF34E641FAD4FB300AF3AAD /* View(视图和控制器) */,
+				1CF34E6A1FAD4FB300AF3AAD /* ViewModel(视图模型) */,
+				1CF34E621FAD4FB300AF3AAD /* Model(模型) */,
+				1CF34E631FAD4FB300AF3AAD /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		1CF34E621FAD4FB300AF3AAD /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		1CF34E631FAD4FB300AF3AAD /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		1CF34E641FAD4FB300AF3AAD /* View(视图和控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				1CF34E671FAD4FB300AF3AAD /* Main */,
+				1CF34E661FAD4FB300AF3AAD /* Home */,
+				1CF34E651FAD4FB300AF3AAD /* Discover */,
+				1CF34E681FAD4FB300AF3AAD /* Message */,
+				1CF34E691FAD4FB300AF3AAD /* Profile */,
+			);
+			path = "View(视图和控制器)";
+			sourceTree = "<group>";
+		};
+		1CF34E651FAD4FB300AF3AAD /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		1CF34E661FAD4FB300AF3AAD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1CF34E671FAD4FB300AF3AAD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1CF34E6B1FAD52AE00AF3AAD /* WBMainViewController.swift */,
+				1CF34E6D1FAE9FCD00AF3AAD /* WBNavigationController.swift */,
+				1CF34E6F1FAEA04B00AF3AAD /* WBBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1CF34E681FAD4FB300AF3AAD /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1CF34E691FAD4FB300AF3AAD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1C6FDE3E1FAEA459006B50A3 /* WBProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1CF34E6A1FAD4FB300AF3AAD /* ViewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModel(视图模型)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF34E701FAEA04B00AF3AAD /* WBBaseViewController.swift in Sources */,
+				1C6FDE3F1FAEA459006B50A3 /* WBProfileViewController.swift in Sources */,
+				1C6FDE3D1FAEA3FF006B50A3 /* WBMessageViewController.swift in Sources */,
+				1CF34E6C1FAD52AE00AF3AAD /* WBMainViewController.swift in Sources */,
+				1C6FDE3B1FAEA3E7006B50A3 /* WBDiscoverViewController.swift in Sources */,
+				1C6FDE391FAEA379006B50A3 /* WBHomeViewController.swift in Sources */,
 				1CF34E441FAC616A00AF3AAD /* AppDelegate.swift in Sources */,
+				1CF34E6E1FAE9FCD00AF3AAD /* WBNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
