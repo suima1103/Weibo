@@ -19,7 +19,9 @@ class WBMainViewController: UITabBarController {
     
     // MARK: - 监听方法
     /// 撰写微博 FIXME: 没有实现
-    @objc func composeStaus() {
+    // private 能够保证方法私有 仅在当前对象被访问
+    // 允许这个函数通过在运行时通过 OC 的消息机制被调用
+    @objc private func composeStaus() {
         print("撰写微博")
     }
     
