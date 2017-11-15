@@ -16,6 +16,13 @@ class WBMainViewController: UITabBarController {
         setupChildControllers()
         setupComposeButton()
     }
+    
+    // MARK: - 监听方法
+    /// 撰写微博 FIXME: 没有实现
+    @objc func composeStaus() {
+        print("撰写微博")
+    }
+    
     // MARK: - 私有控件
      private lazy var  composeButton:UIButton = UIButton(type: .custom)
     
@@ -37,6 +44,10 @@ extension WBMainViewController {
         let count = CGFloat(childViewControllers.count)
         let w = tabBar.bounds.width / count
         composeButton.frame = tabBar.bounds.insetBy(dx: 2 * w, dy: 0)
+        
+        
+        // 设置监听方法
+        composeButton.addTarget(self, action: #selector(composeStaus), for: .touchUpInside)
     }
     // 设置所有子控制器
     private func setupChildControllers() {
