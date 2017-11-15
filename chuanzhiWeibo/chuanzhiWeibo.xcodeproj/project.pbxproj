@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C1670751FAEE72A00E0F8B7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1670741FAEE72A00E0F8B7 /* Bundle+Extensions.swift */; };
+		1C6D02BB1FBC785B00CFF181 /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D02BA1FBC785B00CFF181 /* WBDemoViewController.swift */; };
 		1C6FDE391FAEA379006B50A3 /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */; };
 		1C6FDE3B1FAEA3E7006B50A3 /* WBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */; };
 		1C6FDE3D1FAEA3FF006B50A3 /* WBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		1C1670721FAEB09D00E0F8B7 /* Weibo-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo-Bridge.h"; sourceTree = "<group>"; };
 		1C1670741FAEE72A00E0F8B7 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		1C6D02BA1FBC785B00CFF181 /* WBDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
 		1C6FDE381FAEA379006B50A3 /* WBHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBHomeViewController.swift; sourceTree = "<group>"; };
 		1C6FDE3A1FAEA3E7006B50A3 /* WBDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBDiscoverViewController.swift; sourceTree = "<group>"; };
 		1C6FDE3C1FAEA3FF006B50A3 /* WBMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBMessageViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 				1C1670741FAEE72A00E0F8B7 /* Bundle+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C6D02B91FBC782000CFF181 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D02BA1FBC785B00CFF181 /* WBDemoViewController.swift */,
+			);
+			path = "测试";
 			sourceTree = "<group>";
 		};
 		1CF34E371FAC616900AF3AAD = {
@@ -139,6 +149,7 @@
 		1CF34E671FAD4FB300AF3AAD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1C6D02B91FBC782000CFF181 /* 测试 */,
 				1CF34E6B1FAD52AE00AF3AAD /* WBMainViewController.swift */,
 				1CF34E6D1FAE9FCD00AF3AAD /* WBNavigationController.swift */,
 				1CF34E6F1FAEA04B00AF3AAD /* WBBaseViewController.swift */,
@@ -242,6 +253,7 @@
 			files = (
 				1CF34E701FAEA04B00AF3AAD /* WBBaseViewController.swift in Sources */,
 				1C6FDE3F1FAEA459006B50A3 /* WBProfileViewController.swift in Sources */,
+				1C6D02BB1FBC785B00CFF181 /* WBDemoViewController.swift in Sources */,
 				1C6FDE3D1FAEA3FF006B50A3 /* WBMessageViewController.swift in Sources */,
 				1C1670751FAEE72A00E0F8B7 /* Bundle+Extensions.swift in Sources */,
 				1CF34E6C1FAD52AE00AF3AAD /* WBMainViewController.swift in Sources */,
